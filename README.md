@@ -1,4 +1,4 @@
-# [WIP] DLog
+# [WIP] DLog [![Build Status](https://travis-ci.org/ymegane/DLog.svg?branch=master)](https://travis-ci.org/ymegane/DLog)
 The better log output library for Android.
 
 ## Why
