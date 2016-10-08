@@ -1,9 +1,10 @@
-# [WIP] DLog [![Build Status](https://travis-ci.org/ymegane/DLog.svg?branch=master)](https://travis-ci.org/ymegane/DLog)
+# DLog [![Build Status](https://travis-ci.org/ymegane/DLog.svg?branch=master)](https://travis-ci.org/ymegane/DLog) [ ![Download](https://api.bintray.com/packages/ymegane/maven/dlog/images/download.svg) ](https://bintray.com/ymegane/maven/dlog/_latestVersion)
 The better log output library for Android.
 
 ## Why
-In many cases, `android.util.Log` requests a `TAG` in many classes.
-Also we want to add to the log in other than character information.(e.g method name, line number..
+In many cases, `android.util.Log` requests a `TAG` in many classes.  
+Also we want to add to the log in other than character information.(e.g method name, line number..  
+So, this library focused to the easy to use and useful log output.
 
 ## Feature
 - Class name(and package name) based tag
@@ -11,8 +12,14 @@ Also we want to add to the log in other than character information.(e.g method n
 - When release build is automatically disable
 
 ## Usage
-Work in progress...
-I'm going to upload to any repository.
+
+Open your module gradle file and add the below scripts.
+
+```gradle
+dependencies {
+    compile 'com.github.ymegane:dlog:1.0.0'
+}
+```
 
 Open your application class and add the below code.
 
@@ -53,7 +60,7 @@ com.github.ymegane.android.dlog.sample D/MainActivity: onCreate [L.15] test
 com.github.ymegane.android.dlog.sample D/MainActivity: doSomething [L.21]
 ```
 
-## Licence
+## License
 
 ```
 Copyright 2016 ymegane
