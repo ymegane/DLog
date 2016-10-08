@@ -30,4 +30,5 @@ deploy:
   provider: script
   script: ./release.sh
   on:
+    tags: true
     repo: ymegane/DLog
