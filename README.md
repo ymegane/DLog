@@ -53,7 +53,7 @@ com.github.ymegane.android.dlog.sample D/MainActivity: onCreate [L.15] test
 com.github.ymegane.android.dlog.sample D/MainActivity: doSomething [L.21]
 ```
 
-## License
+## Licence
 
 ```
 Copyright 2016 ymegane
