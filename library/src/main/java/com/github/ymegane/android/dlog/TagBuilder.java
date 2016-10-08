@@ -15,11 +15,10 @@ public class TagBuilder {
         String[] packages = className.split("\\.");
 
         if (_package) {
-            for (int i=0; i<packages.length-2; i++) {
-                stringBuilder.append(packages[i]);
-            }
+            stringBuilder.append(className);
+        } else {
+            stringBuilder.append(packages[packages.length - 1]);
         }
-        stringBuilder.append(packages[packages.length-1]);
 
         return stringBuilder.toString();
     }
