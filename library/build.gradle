@@ -33,7 +33,7 @@ dependencies {
 
 publish {
     userOrg = 'ymegane'
-    groupId = 'com.github'
+    groupId = 'com.github.ymegane'
     artifactId = 'dlog'
     publishVersion = '1.0.0'
     desc = 'The better log output library for Android'
