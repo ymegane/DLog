@@ -1,8 +1,8 @@
-# [WIP] DLog
+# [WIP] DLog [![Build Status](https://travis-ci.org/ymegane/DLog.svg?branch=master)](https://travis-ci.org/ymegane/DLog)
 The better log output library for Android.
 
 ## Why
-In many cases, `android.util.Log` requests a `TAG` in many classes.
+In many cases, `android.util.Log` requests a `TAG` in many classes.  
 Also we want to add to the log in other than character information.(e.g method name, line number..
 
 ## Feature
