@@ -15,6 +15,9 @@ public class MessageBuilder {
     }
 
     String message(StackTraceElement stackTraceElement, String message) {
+        if (stackTraceElement == null) {
+            return message;
+        }
         StringBuilder stringBuilder = new StringBuilder();
         if (method) {
             stringBuilder.append(stackTraceElement.getMethodName()).append(" ");

@@ -9,6 +9,9 @@ public class TagBuilder {
     }
 
     String tag(StackTraceElement stackTraceElement) {
+        if (stackTraceElement == null) {
+            return "";
+        }
         StringBuilder stringBuilder = new StringBuilder();
 
         String className = stackTraceElement.getClassName();
