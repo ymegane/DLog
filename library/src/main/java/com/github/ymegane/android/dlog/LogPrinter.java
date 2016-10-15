@@ -1,5 +1,6 @@
 package com.github.ymegane.android.dlog;
 
+import android.support.annotation.Nullable;
 import android.util.Log;
 
 class LogPrinter {
@@ -113,8 +114,12 @@ class LogPrinter {
         return RESULT_STOPPED_OUTPUT;
     }
 
+    @Nullable
     private StackTraceElement stackTrace() {
         StackTraceElement[] stackTraceElements = new Throwable().getStackTrace();
+        if (stackTraceElements.length < 3) {
+            return null;
+        }
         return stackTraceElements[3];
     }
 }
