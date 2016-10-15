@@ -27,7 +27,7 @@ publish {
     userOrg = 'ymegane'
     groupId = 'com.github.ymegane'
     artifactId = 'dlog'
-    publishVersion = '1.0.0'
+    publishVersion = '1.0.1'
     desc = 'The better log output library for Android'
     website = 'https://github.com/ymegane/DLog'
     licences = ['Apache-2.0']

@@ -17,7 +17,7 @@ Open your module gradle file and add the below scripts.
 
 ```gradle
 dependencies {
-    compile 'com.github.ymegane:dlog:1.0.0'
+    compile 'com.github.ymegane:dlog:1.0.1'
 }
 ```
 
